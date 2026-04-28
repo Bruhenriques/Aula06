@@ -8,6 +8,5 @@
 
 
 export function calcularFrete(valor: number): number {
-    if (valor > 200) return 0;
-    return 20;
+    return valor > 200 ? 0 : 20;
 }
